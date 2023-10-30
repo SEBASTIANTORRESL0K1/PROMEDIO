@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Calculadora de Promedio</h1>
+
+    <form id="calificacionForm">
+        <label for="calificacion1">Calificación 1:</label>
+        <input type="number" id="calificacion1" required><br>
+
+        <label for="calificacion2">Calificación 2:</label>
+        <input type="number" id="calificacion2" required><br>
+
+        <label for="calificacion3">Calificación 3:</label>
+        <input type="number" id="calificacion3" required><br>
+
+        <button type="button" onclick="calcularPromedio()">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+</body>
+</html>
